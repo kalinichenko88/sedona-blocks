@@ -1,0 +1,26 @@
+// Scene
+//------------------------------------------------------------------------------
+
+.scene {
+	padding-bottom: @indent-block-smaller;
+
+	@media (min-width: @grid-breakpoints-md) {
+		padding-bottom: @indent-block-larger;
+	}
+
+	&:first-of-type {
+		padding-top: @indent-block-smaller;
+
+		@media (min-width: @grid-breakpoints-md) {
+			padding-top: @indent-block-larger;
+		}
+	}
+
+	&--fill {
+		padding-top: @indent-block-smaller;
+
+		@media (min-width: @grid-breakpoints-md) {
+			padding-top: @indent-block-larger;
+		}
+	}
+}
