@@ -1,12 +1,30 @@
 # Блоки
 
+## Типы
+
+### Системные
+Строящие лейаут
+
+* [scene](https://github.com/constlab/sedona-blocks/tree/master/scene)
+
+### Блочные
+То есть цельные большие блоки, занимаемые всю ширину экрана
+
+* teaser
+* contacts
+* features
+
+### Встраиваемые
+
+* [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg)
+
 ## Установка
 
 `npm i sedona-blocks --save`
 
 ## Подключение
 
-В файле **gulpfile.js**:
+В файле [gulpfile.js](https://github.com/constlab/sedona-basis/blob/master/gulpfile.js):
 
 ```
 …
