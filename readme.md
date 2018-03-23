@@ -10,23 +10,26 @@
 ### Блочные
 То есть цельные большие блоки, занимаемые всю ширину экрана
 
-* teaser
 * contacts
+* 
 * features
+* teaser
 
 ### Встраиваемые
 
+* form
+* table
 * [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg)
 
 ## Установка
 
-`npm i sedona-blocks --save`
+`$ npm i sedona-blocks --save`
 
 ## Подключение
 
 В файле [gulpfile.js](https://github.com/constlab/sedona-basis/blob/master/gulpfile.js):
 
-```
+```js
 …
 main: [
     'node_modules/sedona-blocks/scene/scene.less',
