@@ -23,7 +23,7 @@
 ## Установка
 
 ```js
-npm i sedona-blocks --save
+npm i sedona-blocks
 ```
 
 ## Подключение
