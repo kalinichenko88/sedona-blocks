@@ -11,7 +11,6 @@
 То есть цельные большие блоки, занимаемые всю ширину экрана
 
 * contacts
-* 
 * features
 * teaser
 
@@ -23,7 +22,9 @@
 
 ## Установка
 
-`$ npm i sedona-blocks --save`
+```js
+npm i sedona-blocks --save
+```
 
 ## Подключение
 
