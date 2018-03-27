@@ -1,21 +1,11 @@
-# Блоки
+# Блоки [дизайн-системы](https://github.com/constlab/sedona)
 
-## Типы
-
-### Системные
-Строящие лейаут
+Набор типовых блоков для сайта.
 
 * [scene](https://github.com/constlab/sedona-blocks/tree/master/scene)
-
-### Блочные
-То есть цельные большие блоки, занимаемые всю ширину экрана
-
 * contacts
 * features
 * teaser
-
-### Встраиваемые
-
 * form
 * table
 * [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg)
