@@ -2,6 +2,8 @@
 
 Набор типовых блоков для сайта.
 
+* header
+* footer
 * [scene](https://github.com/constlab/sedona-blocks/tree/master/scene)
 * contacts
 * features
