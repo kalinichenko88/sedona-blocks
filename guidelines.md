@@ -6,7 +6,7 @@
 <div class="%BLOCK%">
   <div class="%BLOCK%__wrap">
     <div class="%BLOCK%__content  wysiwyg">
-      
+      …
     </div>
   </div>
 </div>
@@ -33,4 +33,41 @@
 <section class="scene  %BLOCK%">
   …
 </section>
+```
+
+### Примеры элементов
+
+```html
+<div class="%BLOCK%">
+  <div class="%BLOCK%__wrap">
+
+    <!-- Заголовок, описывающий смысл блока -->
+    <div class="%BLOCK%__title  wysiwyg">
+      <h2>%ЗАГОЛОВОК%</h2>
+    </div>
+
+    <!-- Контент -->
+    <div class="%BLOCK%__content  wysiwyg">
+      …
+    </div>
+
+    <!-- Список -->
+    <div class="%BLOCK%__list">
+      <div class="%BLOCK%__item">
+        <div class="%BLOCK%__content  wysiwyg">
+          …
+        </div>
+      </div>
+
+      <div class="%BLOCK%__item">
+        <div class="%BLOCK%__content  wysiwyg">
+          …
+        </div>
+      </div>
+
+      …
+    </div>
+
+  </div>
+</div>
 ```
