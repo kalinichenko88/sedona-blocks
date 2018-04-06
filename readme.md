@@ -2,15 +2,26 @@
 
 Набор типовых блоков для сайта.
 
+## Типы
+
+### Системные
+
+* [scene](https://github.com/constlab/sedona-blocks/tree/master/scene)
+* [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg)
+
+### Блочные
+
+* [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
 * header
 * footer
-* [scene](https://github.com/constlab/sedona-blocks/tree/master/scene)
 * contacts
 * features
 * teaser
+
+## Инлайновые
+
 * form
 * table
-* [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg)
 
 ## Установка
 
@@ -25,10 +36,11 @@ npm i sedona-blocks
 ```js
 …
 main: [
-    'node_modules/sedona-blocks/scene/scene.less',
-    'node_modules/sedona-blocks/wysiwyg/wysiwyg.less',
-    …
-    'src/less/main.less'
+  'node_modules/sedona-blocks/scene/scene.less',
+  'node_modules/sedona-blocks/grid/grid.less',
+  'node_modules/sedona-blocks/wysiwyg/wysiwyg.less',
+  …
+  'src/less/main.less'
 ]
 …
 ```
