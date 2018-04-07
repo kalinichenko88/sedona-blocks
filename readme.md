@@ -1,6 +1,7 @@
 # Блоки [дизайн-системы](https://github.com/constlab/sedona)
 
 Набор типовых блоков для сайта.
+[Гайдлайн по созданию](https://github.com/constlab/sedona-blocks/blob/master/guidelines.md).
 
 ## Типы
 
