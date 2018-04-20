@@ -22,8 +22,8 @@
 
 ### Инлайновые
 
+* [table](https://github.com/constlab/sedona-blocks/tree/master/table)
 * form
-* table
 
 ## Установка
 
@@ -39,10 +39,15 @@ npm i sedona-blocks
 …
 main: [
   'node_modules/sedona-blocks/scene/scene.less',
-  'node_modules/sedona-blocks/grid/grid.less',
   'node_modules/sedona-blocks/wysiwyg/wysiwyg.less',
-  …
+  'node_modules/sedona-blocks/grid/grid.less',
+  'node_modules/sedona-blocks/table/table.less',
   'src/less/main.less'
+]
+…
+app: [
+  'src/js/app.js',
+  'node_modules/sedona-blocks/table/table.js'
 ]
 …
 ```
