@@ -2,6 +2,8 @@
 //------------------------------------------------------------------------------
 
 .wysiwyg {
+	word-break: break-all;
+
 	h1 {
 		margin-bottom: @indent;
 	}
@@ -27,9 +29,9 @@
 
 	ul,
 	ol {
+		margin-bottom: @indent;
 		padding-left: @line-height;
 		list-style-type: none;
-		margin-bottom: @indent;
 
 		li {
 			margin-bottom: (@indent / 2);
@@ -39,10 +41,10 @@
 			}
 
 			&::before {
+				content: '—';
 				position: absolute;
 				margin-left: -@line-height;
 				opacity: 0.3;
-				content: "—";
 			}
 		}
 	}
@@ -51,9 +53,9 @@
 		counter-reset: code;
 
 		li::before {
-			counter-increment: code;
-			content: counter(code)".";
+			content: counter(code)'.';
 			opacity: 0.4;
+			counter-increment: code;
 		}
 	}
 
