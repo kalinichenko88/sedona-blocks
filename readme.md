@@ -16,13 +16,13 @@
 * [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
 * header
 * footer
+* slider
 * contacts
-* features
-* teaser
 
 ### Инлайновые
 
 * [table](https://github.com/constlab/sedona-blocks/tree/master/table)
+* card
 * form
 
 ## Установка
