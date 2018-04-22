@@ -17,6 +17,7 @@
 * header
 * footer
 * slider
+* carousel
 * contacts
 
 ### Инлайновые
