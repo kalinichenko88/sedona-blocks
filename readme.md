@@ -13,8 +13,8 @@
 
 ### Блочные
 
+* [header](https://github.com/constlab/sedona-blocks/tree/master/header)
 * [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
-* header
 * footer
 * slider
 * carousel
@@ -39,6 +39,7 @@ npm i sedona-blocks
 ```js
 …
 main: [
+  'node_modules/sedona-blocks/header/header.less',
   'node_modules/sedona-blocks/scene/scene.less',
   'node_modules/sedona-blocks/wysiwyg/wysiwyg.less',
   'node_modules/sedona-blocks/grid/grid.less',
@@ -48,6 +49,7 @@ main: [
 …
 app: [
   'src/js/app.js',
+  'node_modules/sedona-blocks/header/header.js',
   'node_modules/sedona-blocks/table/table.js'
 ]
 …
