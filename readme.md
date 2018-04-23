@@ -25,6 +25,7 @@
 * [table](https://github.com/constlab/sedona-blocks/tree/master/table)
 * card
 * form
+* social
 
 ## Установка
 
