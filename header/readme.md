@@ -71,7 +71,7 @@
 
 ### `header`
 
-* `header--dark` — делает шапку в темных тонах
+* `header--darken` — делает шапку в темных тонах
 
 ### `header__extra`
 
