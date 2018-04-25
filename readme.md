@@ -29,7 +29,7 @@
 
 ## Установка
 
-```js
+```
 npm i sedona-blocks
 ```
 
