@@ -1,6 +1,6 @@
 # Блоки
 
-Набор типовых блоков для сайта.
+Набор типовых блоков для верстки сайта.
 
 [Гайдлайн по созданию](https://github.com/constlab/sedona-blocks/blob/master/guidelines.md).
 
