@@ -16,7 +16,7 @@
 * [header](https://github.com/constlab/sedona-blocks/tree/master/header)
 * [footer](https://github.com/constlab/sedona-blocks/tree/master/footer)
 * [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
-* slider
+* [slider](https://github.com/constlab/sedona-blocks/tree/master/slider)
 * carousel
 * contact
 
@@ -45,6 +45,7 @@ main: [
   'node_modules/sedona-blocks/scene/scene.less',
   'node_modules/sedona-blocks/wysiwyg/wysiwyg.less',
   'node_modules/sedona-blocks/grid/grid.less',
+  'node_modules/sedona-blocks/slider/slider.less',
   'node_modules/sedona-blocks/table/table.less',
   'src/less/main.less'
 ]
@@ -52,6 +53,7 @@ main: [
 app: [
   'src/js/app.js',
   'node_modules/sedona-blocks/header/header.js',
+  'node_modules/sedona-blocks/slider/slider.js',
   'node_modules/sedona-blocks/table/table.js'
 ]
 …
