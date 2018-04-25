@@ -8,19 +8,33 @@
 
 ### Системные
 
+Основа без которой не обойтись.
+
 * [scene](https://github.com/constlab/sedona-blocks/tree/master/scene)
 * [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg)
 
-### Блочные
+### Шаблонные
+
+Самостоятельные блоки. Не могут вкладываться в другие.
 
 * [header](https://github.com/constlab/sedona-blocks/tree/master/header)
 * [footer](https://github.com/constlab/sedona-blocks/tree/master/footer)
-* [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
-* [slider](https://github.com/constlab/sedona-blocks/tree/master/slider)
-* carousel
 * contact
+* testimonials
+* pricing
+* teams
+
+## Сущности
+
+Могут использоваться как самостоятельные блоки, так и вкладываться в другие, но не сами в себя.
+
+* [slider](https://github.com/constlab/sedona-blocks/tree/master/slider)
+* [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
+* carousel
 
 ### Инлайновые
+
+Не могут использоваться как самостоятельные блоки, обязательно должны вкладываться в блочный или инлайно-блочный тип.
 
 * [table](https://github.com/constlab/sedona-blocks/tree/master/table)
 * card
