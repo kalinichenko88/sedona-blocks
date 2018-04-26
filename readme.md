@@ -31,13 +31,14 @@
 * [slider](https://github.com/constlab/sedona-blocks/tree/master/slider)
 * [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
 * carousel
+* collapse
+* card
 
 ### Инлайновые
 
 Не могут использоваться как самостоятельные блоки, обязательно должны вкладываться в блочный или инлайно-блочный тип.
 
 * [table](https://github.com/constlab/sedona-blocks/tree/master/table)
-* card
 * form
 * social
 
