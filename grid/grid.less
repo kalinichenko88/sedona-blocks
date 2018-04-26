@@ -64,6 +64,14 @@
 
 	&--diff {
 		margin-bottom: 0;
+
+		&:last-of-type {
+			margin-bottom: -@indent-element-smaller;
+
+			@media (min-width: @grid-breakpoints-md) {
+				margin-bottom: -@indent-element-larger;
+			}
+		}
 	}
 }
 
