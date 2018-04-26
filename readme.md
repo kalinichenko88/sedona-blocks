@@ -23,6 +23,7 @@
 * testimonials
 * pricing
 * teams
+* heading
 
 ### Сущности
 
