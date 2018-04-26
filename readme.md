@@ -34,6 +34,7 @@
 * carousel
 * collapse
 * card
+* tabs
 
 ### Инлайновые
 
