@@ -41,8 +41,8 @@
 Не могут использоваться как самостоятельные блоки, обязательно должны вкладываться в блочный или инлайно-блочный тип.
 
 * [table](https://github.com/constlab/sedona-blocks/tree/master/table)
+* [social](https://github.com/constlab/sedona-blocks/tree/master/social)
 * form
-* social
 
 ## Установка
 
