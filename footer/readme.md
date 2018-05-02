@@ -9,7 +9,7 @@
 
 ## Настройка
 
-```bash
+```less
 @footer-padding-top-smaller: 0;
 @footer-padding-top-larger: 0;
 @footer-padding-bottom-smaller: @indent-block-smaller;
