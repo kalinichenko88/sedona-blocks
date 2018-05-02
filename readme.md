@@ -17,32 +17,32 @@
 
 Самостоятельные блоки. Не могут вкладываться в другие.
 
-* [header](https://github.com/constlab/sedona-blocks/tree/master/header)
-* [footer](https://github.com/constlab/sedona-blocks/tree/master/footer)
 * contact
-* testimonials
-* pricing
-* teams
+* [footer](https://github.com/constlab/sedona-blocks/tree/master/footer)
+* [header](https://github.com/constlab/sedona-blocks/tree/master/header)
 * heading
+* pricing
+* testimonials
+* teams
 
-### Сущности
+### Содержательные
 
 Могут использоваться как самостоятельные блоки, так и вкладываться в другие, но не сами в себя.
 
-* [slider](https://github.com/constlab/sedona-blocks/tree/master/slider)
-* [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
+* card
 * carousel
 * collapse
-* card
+* [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
+* [slider](https://github.com/constlab/sedona-blocks/tree/master/slider)
 * tabs
 
 ### Инлайновые
 
-Не могут использоваться как самостоятельные блоки, обязательно должны вкладываться в блочный или инлайно-блочный тип.
+Не могут использоваться как самостоятельные блоки, обязательно должны вкладываться в шаблонный или содержательный типы.
 
-* [table](https://github.com/constlab/sedona-blocks/tree/master/table)
-* [social](https://github.com/constlab/sedona-blocks/tree/master/social)
 * form
+* [social](https://github.com/constlab/sedona-blocks/tree/master/social)
+* [table](https://github.com/constlab/sedona-blocks/tree/master/table)
 
 ## Установка
 
@@ -57,12 +57,13 @@ npm i sedona-blocks
 ```js
 …
 main: [
-  'node_modules/sedona-blocks/header/header.less',
   'node_modules/sedona-blocks/footer/footer.less',
+  'node_modules/sedona-blocks/header/header.less',
   'node_modules/sedona-blocks/scene/scene.less',
   'node_modules/sedona-blocks/wysiwyg/wysiwyg.less',
   'node_modules/sedona-blocks/grid/grid.less',
   'node_modules/sedona-blocks/slider/slider.less',
+  'node_modules/sedona-blocks/social/social.less',
   'node_modules/sedona-blocks/table/table.less',
   'src/less/main.less'
 ]
@@ -73,5 +74,17 @@ app: [
   'node_modules/sedona-blocks/slider/slider.js',
   'node_modules/sedona-blocks/table/table.js'
 ]
+…
+```
+
+## Настройка
+
+Некоторые блоки имеют свой набор переменных. Их можно переопределить, добавив в конец файла [variables.less](https://github.com/constlab/sedona-basis/blob/master/src/less/variables.less):
+
+```less
+…
+@footer-font-size: @font-size-smaller;
+@footer-line-height: @line-height-smaller;
+@footer-color: @dark-secondary;
 …
 ```
