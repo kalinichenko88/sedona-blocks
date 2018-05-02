@@ -6,6 +6,13 @@
 
 * Может располагаться внутри любого типа блока
 
+## Настройка
+
+```less
+@social-item-width: @line-height;
+@social-item-height: @line-height;
+```
+
 ## Разметка
 
 ```html
