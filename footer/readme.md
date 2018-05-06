@@ -6,6 +6,7 @@
 
 * Подключается к `<footer>` или располагается внутри него
 * По-умолчанию элементы идут друг под другом. Начиная с ширины `@footer-breakpoints-desktop`, выстраиваются на 100% ширину родителя с воздухом между (space-between)
+* По-умолчанию имеет тон всего сайта. Может принудительно иметь светлый и темный тон
 
 ## Настройка
 
@@ -17,10 +18,18 @@
 
 @footer-font-size: inherit;
 @footer-line-height: inherit;
-@footer-color: inherit;
-@footer-background: none;
 
+@footer-color: @base-primary;
+@footer-background: none;
 @footer-link-color: @link-primary;
+
+@footer-lighten-color: @dark-primary;
+@footer-lighten-background: @light-primary;
+@footer-lighten-link-color: @footer-link-color;
+
+@footer-darken-color: @light-primary;
+@footer-darken-background: @dark-primary;
+@footer-darken-link-color: @footer-link-color;
 
 @footer-breakpoints-desktop: @grid-breakpoints-md;
 @footer-max-width: @grid-breakpoints-xl;
@@ -47,3 +56,10 @@
   </div>
 </footer>
 ```
+
+## Модификаторы
+
+### `footer`
+
+* `footer--lighten` — делает подвал в светлых тонах
+* `footer--darken` — делает подвал в темных тонах
