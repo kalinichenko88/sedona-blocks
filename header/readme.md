@@ -7,8 +7,8 @@
 * Подключается к `<header>` или располагается внутри него
 * По-умолчанию имеет максимальную для контента ширину — `@grid-breakpoints-xl`
 * По-умолчанию имеет мобильный вид. Разворачивается, начиная с ширины `@grid-breakpoints-md`
-* По-умолчанию в светлых тонах (изменяется через [модификаторы](#Модификаторы))
 * Имеет встраиваемые дополнительные элементы (указаны в разметке)
+* По-умолчанию имеет тон всего сайта. Может принудительно иметь светлый и темный тон
 
 ## Разметка
 
@@ -24,8 +24,8 @@
         <!-- Дополнительно (примеры) -->
         <li>Привет!</li>
         <li><a href="#">Вход</a></li>
-        <li class="header__call"><a href="#">8 800 200-66-00</a></li>
-        <li class="header__search"><a href="#">Поиск</a></li>
+        <li class="header__icon  header__icon--call"><a href="#">8 800 200-66-00</a></li>
+        <li class="header__icon  header__icon--search"><a href="#">Поиск</a></li>
         <!-- / -->
   
         <li class="header__toggle"><button class="js-header-toggle">Меню</button></li>
@@ -58,8 +58,8 @@
       
       <!-- Дополнительно -->
       <ul class="header__extra  header__extra--hidden-mobile">
-        <li class="header__call"><a href="#">8 800 200-66-00</a></li>
-        <li class="header__search"><a href="#">Поиск</a></li>
+        <li class="header__icon  header__icon--call"><a href="#">8 800 200-66-00</a></li>
+        <li class="header__icon  header__icon--search"><a href="#">Поиск</a></li>
       </ul>
       <!-- / -->
     </div>
@@ -71,6 +71,7 @@
 
 ### `header`
 
+* `header--lighten` — делает шапку в светлых тонах
 * `header--darken` — делает шапку в темных тонах
 
 ### `header__extra`
