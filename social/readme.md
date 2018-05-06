@@ -9,23 +9,26 @@
 ## Настройка
 
 ```less
-@social-item-width: @line-height;
-@social-item-height: @line-height;
+@social-width: @line-height;
+@social-height: @line-height;
+
+@social-color: @light-primary;
+@social-background-color: transparent;
 ```
 
 ## Разметка
 
 ```html
 <ul class="social">
-  <li><a class="social__vk" href="https://vk.com/nickname" rel="noopener noreferrer" target="_blank">ВКонтакте</a></li>
-  <li><a class="social__fb" href="https://fb.com/nickname" rel="noopener noreferrer" target="_blank">Фейсбук</a></li>
-  <li><a class="social__ig" href="https://instagram.com/nickname" rel="noopener noreferrer" target="_blank">Инстаграм</a></li>
-  <li><a class="social__tg" href="tg://resolve?domain=nickname" rel="noopener noreferrer" target="_blank">Телеграм</a></li>
-  <li><a class="social__yt" href="https://youtube.com/user/nickname" rel="noopener noreferrer" target="_blank">Ютюб</a></li>
-  <li><a class="social__tw" href="https://twitter.com/nickname" rel="noopener noreferrer" target="_blank">Твиттер</a></li>
-  <li><a class="social__ok" href="https://ok.ru/nickname" rel="noopener noreferrer" target="_blank">Одноклассники</a></li>
-  <li><a class="social__vb" href="viber://pa?chatURI=nickname" rel="noopener noreferrer" target="_blank">Вайбер</a></li>
-  <li><a class="social__wa" href="whatsapp://send?abid=nickname" rel="noopener noreferrer" target="_blank">Ватсап</a></li>
-  <li><a class="social__sk" href="skype:nickname?chat" rel="noopener noreferrer" target="_blank">Скайп</a></li>
+	<li><a class="social__vk" href="https://vk.com/nickname" rel="noopener noreferrer" target="_blank">ВКонтакте</a></li>
+	<li><a class="social__fb" href="https://fb.com/nickname" rel="noopener noreferrer" target="_blank">Фейсбук</a></li>
+	<li><a class="social__ig" href="https://instagram.com/nickname" rel="noopener noreferrer" target="_blank">Инстаграм</a></li>
+	<li><a class="social__tg" href="tg://resolve?domain=nickname" rel="noopener noreferrer" target="_blank">Телеграм</a></li>
+	<li><a class="social__yt" href="https://youtube.com/user/nickname" rel="noopener noreferrer" target="_blank">Ютюб</a></li>
+	<li><a class="social__tw" href="https://twitter.com/nickname" rel="noopener noreferrer" target="_blank">Твиттер</a></li>
+	<li><a class="social__ok" href="https://ok.ru/nickname" rel="noopener noreferrer" target="_blank">Одноклассники</a></li>
+	<li><a class="social__vb" href="viber://pa?chatURI=nickname" rel="noopener noreferrer" target="_blank">Вайбер</a></li>
+	<li><a class="social__wa" href="whatsapp://send?abid=nickname" rel="noopener noreferrer" target="_blank">Ватсап</a></li>
+	<li><a class="social__sk" href="skype:nickname?chat" rel="noopener noreferrer" target="_blank">Скайп</a></li>
 </ul>
 ```
