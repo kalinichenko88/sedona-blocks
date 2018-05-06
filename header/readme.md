@@ -5,10 +5,31 @@
 ## Особенности
 
 * Подключается к `<header>` или располагается внутри него
-* По-умолчанию имеет максимальную для контента ширину — `@grid-breakpoints-xl`
-* По-умолчанию имеет мобильный вид. Разворачивается, начиная с ширины `@grid-breakpoints-md`
+* По-умолчанию имеет максимальную для контента ширину — `@header-max-width`
+* По-умолчанию имеет мобильный вид. Разворачивается, начиная с ширины `@header-breakpoints-desktop`
 * Имеет встраиваемые дополнительные элементы (указаны в разметке)
 * По-умолчанию имеет тон всего сайта. Может принудительно иметь светлый и темный тон
+
+## Настройка
+
+```less
+@header-height: (@line-height + @indent * 2);
+
+@header-color: @base-primary;
+@header-background: none;
+@header-link-color: @link-primary;
+
+@header-lighten-color: @dark-primary;
+@header-lighten-background: @light-primary;
+@header-lighten-link-color: @header-link-color;
+
+@header-darken-color: @light-primary;
+@header-darken-background: @dark-primary;
+@header-darken-link-color: @header-link-color;
+
+@header-breakpoints-desktop: @grid-breakpoints-md;
+@header-max-width: @grid-breakpoints-xl;
+```
 
 ## Разметка
 
