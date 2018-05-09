@@ -10,7 +10,7 @@
 
 Основа без которой не обойтись.
 
-* [scene](https://github.com/constlab/sedona-blocks/tree/master/scene)
+* [scene](https://github.com/constlab/sedona-blocks/tree/master/scene) ([пример](http://sedona.stage.constlab.ru/blocks/scene/))
 * [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg) ([пример](http://sedona.stage.constlab.ru/blocks/wysiwyg/))
 
 ### Шаблонные
