@@ -9,7 +9,7 @@
 ## Разметка
 
 ```html
-<div class="%BLOCK%__content  wysiwyg">
+<div class="wysiwyg">
   …
 </div>
 ```
