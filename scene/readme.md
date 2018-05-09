@@ -14,11 +14,17 @@
 ## Настройка
 
 ```less
-@scene-lighten-color: @dark-primary;
-@scene-lighten-background: @light-primary;
+// Darken
 
 @scene-darken-color: @light-primary;
 @scene-darken-background: @dark-primary;
+@scene-darken-link-color: @link-primary;
+
+// Lighten
+
+@scene-lighten-color: @dark-primary;
+@scene-lighten-background: @light-primary;
+@scene-lighten-link-color: @link-primary;
 ```
 
 ## Разметка
@@ -43,6 +49,6 @@
 
 ### `scene`
 
-* `scene--lighten` — делает сцену в светлых тонах
 * `scene--darken` — делает сцену в темных тонах
+* `scene--lighten` — делает сцену в светлых тонах
 * `scene--fill` — добавляет отступ сверху
