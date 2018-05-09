@@ -29,7 +29,6 @@
 
 Могут использоваться как самостоятельные блоки, так и вкладываться в другие, но не сами в себя.
 
-* card
 * carousel
 * collapse
 * [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
@@ -40,6 +39,7 @@
 
 Не могут использоваться как самостоятельные блоки, обязательно должны вкладываться в шаблонный или содержательный типы.
 
+* card
 * form
 * [social](https://github.com/constlab/sedona-blocks/tree/master/social)
 * [table](https://github.com/constlab/sedona-blocks/tree/master/table)
