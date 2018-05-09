@@ -13,24 +13,24 @@
 ## Настройка
 
 ```less
-@table-divider: @base-divider;
-
-@table-lighten-divider: @dark-divider;
-
-@table-darken-divider: @light-divider;
+// Base
 
 @table-head-font: normal @font-size-smaller/@line-height-smaller @font-family-primary;
 @table-head-color: @base-secondary;
-
-@table-lighten-head-color: @dark-secondary;
-
-@table-darken-head-color: @light-secondary;
-
+@table-divider: @base-divider;
 @table-tr-hover-background-color: @table-divider;
 
-@table-lighten-tr-hover-background-color: @table-lighten-divider;
+// Darken
 
+@table-darken-head-color: @light-secondary;
+@table-darken-divider: @light-divider;
 @table-darken-tr-hover-background-color: @table-darken-divider;
+
+// Lighten
+
+@table-lighten-head-color: @dark-secondary;
+@table-lighten-divider: @dark-divider;
+@table-lighten-tr-hover-background-color: @table-lighten-divider;
 ```
 
 ## Разметка
