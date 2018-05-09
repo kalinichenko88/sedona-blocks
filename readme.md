@@ -43,7 +43,7 @@
 * [card](https://github.com/constlab/sedona-blocks/tree/master/card)
 * form
 * [social](https://github.com/constlab/sedona-blocks/tree/master/social)
-* [table](https://github.com/constlab/sedona-blocks/tree/master/table)
+* [table](https://github.com/constlab/sedona-blocks/tree/master/table) ([пример](http://sedona.stage.constlab.ru/blocks/table/))
 
 ## Установка
 
