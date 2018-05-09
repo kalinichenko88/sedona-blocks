@@ -13,22 +13,26 @@
 ## Настройка
 
 ```less
-@header-height: (@line-height + @indent * 2);
+// Base
 
+@header-height: (@line-height + @indent * 2);
 @header-color: @base-primary;
 @header-background: none;
 @header-link-color: @link-primary;
+@header-breakpoints-desktop: @grid-breakpoints-md;
+@header-max-width: @grid-breakpoints-xl;
 
-@header-lighten-color: @dark-primary;
-@header-lighten-background: @light-primary;
-@header-lighten-link-color: @header-link-color;
+// Darken
 
 @header-darken-color: @light-primary;
 @header-darken-background: @dark-primary;
 @header-darken-link-color: @header-link-color;
 
-@header-breakpoints-desktop: @grid-breakpoints-md;
-@header-max-width: @grid-breakpoints-xl;
+// Lighten
+
+@header-lighten-color: @dark-primary;
+@header-lighten-background: @light-primary;
+@header-lighten-link-color: @header-link-color;
 ```
 
 ## Разметка
