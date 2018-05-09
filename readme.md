@@ -11,7 +11,7 @@
 Основа без которой не обойтись.
 
 * [scene](https://github.com/constlab/sedona-blocks/tree/master/scene)
-* [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg)
+* [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg) ([пример](http://sedona.stage.constlab.ru/blocks/wysiwyg/))
 
 ### Шаблонные
 
