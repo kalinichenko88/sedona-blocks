@@ -40,7 +40,7 @@
 
 Не могут использоваться как самостоятельные блоки, обязательно должны вкладываться в шаблонный или содержательный типы.
 
-* card
+* [card](https://github.com/constlab/sedona-blocks/tree/master/card)
 * form
 * [social](https://github.com/constlab/sedona-blocks/tree/master/social)
 * [table](https://github.com/constlab/sedona-blocks/tree/master/table)
