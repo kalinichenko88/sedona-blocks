@@ -1,6 +1,6 @@
 # Таблица
 
-Инлайновый тип.
+Инлайновый тип. [Пример](http://sedona.stage.constlab.ru/blocks/table/).
 
 ## Особенности
 
@@ -8,16 +8,29 @@
 * По-умолчанию — блочно-строчный (изменяется через [модификаторы](#Модификаторы)) и равен ширине контента внутри
 * Если содержимое не помещается — появляется горизонтальная прокрутка
 * Имеет встроенные иконки (указаны в разметке)
+* По-умолчанию имеет тон всего сайта. Может принудительно иметь светлый и темный тон
 
 ## Настройка
 
 ```less
 @table-divider: @base-divider;
 
+@table-lighten-divider: @dark-divider;
+
+@table-darken-divider: @light-divider;
+
 @table-head-font: normal @font-size-smaller/@line-height-smaller @font-family-primary;
 @table-head-color: @base-secondary;
 
+@table-lighten-head-color: @dark-secondary;
+
+@table-darken-head-color: @light-secondary;
+
 @table-tr-hover-background-color: @table-divider;
+
+@table-lighten-tr-hover-background-color: @table-lighten-divider;
+
+@table-darken-tr-hover-background-color: @table-darken-divider;
 ```
 
 ## Разметка
@@ -49,6 +62,8 @@
 
 ### `table`
 
+* `table--lighten` — делает таблицу в светлых тонах
+* `table--darken` — делает таблицу в темных тонах
 * `table--block` — делает таблицу блочной, то есть растягивает на 100% доступной ширины
 
 ## Дополнительно
