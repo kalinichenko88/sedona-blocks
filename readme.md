@@ -10,8 +10,8 @@
 
 Основа без которой не обойтись.
 
-* [scene](https://github.com/constlab/sedona-blocks/tree/master/scene)
-* [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg)
+* [scene](https://github.com/constlab/sedona-blocks/tree/master/scene) ([пример](http://sedona.stage.constlab.ru/blocks/scene/))
+* [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg) ([пример](http://sedona.stage.constlab.ru/blocks/wysiwyg/))
 
 ### Шаблонные
 
@@ -32,7 +32,7 @@
 
 * carousel
 * collapse
-* [grid](https://github.com/constlab/sedona-blocks/tree/master/grid)
+* [grid](https://github.com/constlab/sedona-blocks/tree/master/grid) ([пример](http://sedona.stage.constlab.ru/blocks/grid/))
 * [slider](https://github.com/constlab/sedona-blocks/tree/master/slider)
 * tabs
 
@@ -42,8 +42,8 @@
 
 * [card](https://github.com/constlab/sedona-blocks/tree/master/card)
 * form
-* [social](https://github.com/constlab/sedona-blocks/tree/master/social)
-* [table](https://github.com/constlab/sedona-blocks/tree/master/table)
+* [social](https://github.com/constlab/sedona-blocks/tree/master/social) ([пример](http://sedona.stage.constlab.ru/blocks/social/))
+* [table](https://github.com/constlab/sedona-blocks/tree/master/table) ([пример](http://sedona.stage.constlab.ru/blocks/table/))
 
 ## Установка
 
