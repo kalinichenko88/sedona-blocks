@@ -12,22 +12,26 @@
 ## Настройка
 
 ```less
+// Base
+
 @slider-item-background-color: transparent;
 @slider-item-background-repeat: no-repeat;
 @slider-item-background-position: 50%;
 @slider-item-background-size: cover;
+@slider-max-width: @grid-breakpoints-xl;
+@slider-bullet-width: 7px;
+@slider-bullet-height: 7px;
+@slider-bullet-radius: 50%;
 
-@slider-item-lighten-color: @dark-primary;
-@slider-item-lighten-background-color: @light-primary;
+// Darken
 
 @slider-item-darken-color: @light-primary;
 @slider-item-darken-background-color: @dark-primary;
 
-@slider-max-width: @grid-breakpoints-xl;
+// Lighten
 
-@slider-bullet-width: 7px;
-@slider-bullet-height: 7px;
-@slider-bullet-radius: 50%;
+@slider-item-lighten-color: @dark-primary;
+@slider-item-lighten-background-color: @light-primary;
 ```
 
 ## Разметка
@@ -58,6 +62,6 @@
 
 ### `slider`
 
-* `slider--scene` — делает слайдер сценой (добавляет отступы у итемов сверху и снизу)
-* `slider--lighten` — делает слайдер в светлых тонах
 * `slider--darken` — делает слайдер в темных тонах
+* `slider--lighten` — делает слайдер в светлых тонах
+* `slider--scene` — делает слайдер сценой (добавляет отступы у итемов сверху и снизу)
