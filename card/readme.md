@@ -10,32 +10,36 @@
 ## Настройка
 
 ```less
-@card-radius: @radius;
+// Base
 
 @card-border-width: 1px;
-@card-border-color: @base-divider;
+@card-border-radius: @radius;
 
-@card-lighten-color: @dark-primary;
-@card-lighten-background: @light-primary;
+// Darken
 
 @card-darken-color: @light-primary;
 @card-darken-background: @dark-primary;
+@card-darken-border-color: @light-divider;
+
+// Lighten
+
+@card-lighten-color: @dark-primary;
+@card-lighten-background: @light-primary;
+@card-lighten-border-color: @dark-divider;
 ```
 
 ## Разметка
 
 ```html
 <div class="card">
-  <div class="card__wrap">
-    <div class="card__frame">
-      <div class="card__img">
-        <img src="#" alt="">
-      </div>
+  <div class="card__frame">
+    <div class="card__img">
+      <img src="#" alt="">
     </div>
+  </div>
 
-    <div class="card__content  wysiwyg">
-      …
-    </div>
+  <div class="card__content  wysiwyg">
+    …
   </div>
 </div>
 ```
@@ -44,6 +48,7 @@
 
 ### `card`
 
-* `card--border` — делает карточке обводку
-* `card--lighten` — делает карточку в светлых тонах
+* `card--dark-contour` — добавляет карточке темную обводку
+* `card--light-contour` — добавляет карточке светлую обводку
 * `card--darken` — делает карточку в темных тонах
+* `card--lighten` — делает карточку в светлых тонах
