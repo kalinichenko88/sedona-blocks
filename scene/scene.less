@@ -1,6 +1,16 @@
 // Scene
 //------------------------------------------------------------------------------
 
+@scene-lighten-color: @dark-primary;
+@scene-lighten-background: @light-primary;
+
+@scene-darken-color: @light-primary;
+@scene-darken-background: @dark-primary;
+
+
+// Style
+//------------------------------------------------------------------------------
+
 .scene {
 	padding-bottom: @indent-block-smaller;
 
@@ -11,6 +21,18 @@
 
 	@media (min-width: @grid-breakpoints-md) {
 		padding-bottom: @indent-block-larger;
+	}
+
+	&--lighten {
+		color: @scene-lighten-color;
+		fill: @scene-lighten-color;
+		background: @scene-lighten-background;
+	}
+
+	&--darken {
+		color: @scene-darken-color;
+		fill: @scene-darken-color;
+		background: @scene-darken-background;
 	}
 
 	&--fill {
