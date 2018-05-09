@@ -64,6 +64,7 @@ main: [
   'node_modules/sedona-blocks/header/header.less',
   'node_modules/sedona-blocks/grid/grid.less',
   'node_modules/sedona-blocks/slider/slider.less',
+  'node_modules/sedona-blocks/card/card.less',
   'node_modules/sedona-blocks/social/social.less',
   'node_modules/sedona-blocks/table/table.less',
   'src/less/main.less'
