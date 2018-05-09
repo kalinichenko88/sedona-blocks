@@ -16,6 +16,8 @@
 
 @table-head-font: normal @font-size-smaller/@line-height-smaller @font-family-primary;
 @table-head-color: @base-secondary;
+
+@table-tr-hover-background-color: @table-divider;
 ```
 
 ## Разметка
