@@ -62,6 +62,7 @@ main: [
   'node_modules/sedona-blocks/wysiwyg/wysiwyg.less',
   'node_modules/sedona-blocks/footer/footer.less',
   'node_modules/sedona-blocks/header/header.less',
+  'node_modules/sedona-blocks/notify/notify.less',
   'node_modules/sedona-blocks/grid/grid.less',
   'node_modules/sedona-blocks/slider/slider.less',
   'node_modules/sedona-blocks/card/card.less',
