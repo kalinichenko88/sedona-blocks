@@ -33,7 +33,7 @@
 * carousel
 * collapse
 * [grid](https://github.com/constlab/sedona-blocks/tree/master/grid) ([пример](http://sedona.stage.constlab.ru/blocks/grid/))
-* [slider](https://github.com/constlab/sedona-blocks/tree/master/slider)
+* [slider](https://github.com/constlab/sedona-blocks/tree/master/slider) ([пример](http://sedona.stage.constlab.ru/blocks/slider/))
 * tabs
 
 ### Инлайновые
