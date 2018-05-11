@@ -21,7 +21,7 @@
 * [footer](https://github.com/constlab/sedona-blocks/tree/master/footer)
 * [header](https://github.com/constlab/sedona-blocks/tree/master/header)
 * heading
-* notice
+* [notify](https://github.com/constlab/sedona-blocks/tree/master/notify)
 * pricing
 * testimonials
 * teams
