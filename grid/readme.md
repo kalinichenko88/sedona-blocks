@@ -27,7 +27,7 @@
     …
   
     <!-- Дополнительно -->
-    <div class="grid__container">
+    <div class="grid__content">
       …
     </div>
     <!-- / -->
