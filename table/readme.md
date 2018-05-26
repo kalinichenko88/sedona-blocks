@@ -15,20 +15,26 @@
 ```less
 // Base
 
-@table-head-font: normal @font-size-smaller/@line-height-smaller @font-family-primary;
+@table-head-font-size: @font-size-smaller;
+@table-head-line-height: @line-height-smaller;
+@table-head-font-weight: normal;
+@table-head-font-family: @font-family-primary;
 @table-head-color: @base-secondary;
+
 @table-divider: @base-divider;
 @table-tr-hover-background-color: @table-divider;
 
 // Darken
 
 @table-darken-head-color: @light-secondary;
+
 @table-darken-divider: @light-divider;
 @table-darken-tr-hover-background-color: @table-darken-divider;
 
 // Lighten
 
 @table-lighten-head-color: @dark-secondary;
+
 @table-lighten-divider: @dark-divider;
 @table-lighten-tr-hover-background-color: @table-lighten-divider;
 ```
