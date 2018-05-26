@@ -16,6 +16,8 @@
 @notify-color: inherit;
 @notify-background: @base-divider;
 @notify-link-color: @link-primary;
+
+@notify-max-width: 500px;
 ```
 
 ## Разметка
