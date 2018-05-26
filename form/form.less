@@ -1,0 +1,148 @@
+// Form
+//------------------------------------------------------------------------------
+
+@form-control-border-width: 1px;
+@form-control-border-color: @base-divider;
+@form-control-border-radius: @radius;
+
+@form-control-padding-top: 6px;
+@form-control-padding-bottom: @form-control-padding-top;
+@form-control-padding-left: @indent;
+@form-control-padding-right: @form-control-padding-left;
+
+@form-control-color: @base-primary;
+@form-control-background-color: transparent;
+@form-hint-color: @base-hint;
+
+@form-breakpoints-desktop: @grid-breakpoints-md;
+
+
+// Style
+//------------------------------------------------------------------------------
+
+.form {
+	margin-bottom: -@indent;
+}
+
+.form__group {
+	margin-bottom: @indent;
+
+	@media (min-width: @form-breakpoints-desktop) {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+}
+
+.form__label {
+	margin-bottom: (@indent / 2);
+
+	@media (max-width: (@form-breakpoints-desktop - 1px)) {
+		width: 100% !important;
+	}
+
+	@media (min-width: @form-breakpoints-desktop) {
+		padding-right: (@grid-gutter / 2);
+		padding-top: @form-control-padding-top;
+		margin-bottom: 0;
+	}
+}
+
+.form__fields {
+	@media (min-width: @form-breakpoints-desktop) {
+		flex: 1 0 0%;
+	}
+
+	@media (max-width: (@form-breakpoints-desktop - 1px)) {
+		margin-left: 0 !important;
+	}
+}
+
+.form__line {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: (@indent / -2);
+	margin-right: (@grid-gutter / -4);
+
+	& ~ & {
+		margin-top: @indent;
+	}
+
+	& > * {
+		padding-right: (@grid-gutter / 4);
+		margin-bottom: (@indent / 2);
+	}
+}
+
+.form__control {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+
+	input {
+		display: block;
+		border-width: @form-control-border-width;
+		border-style: solid;
+		border-color: @form-control-border-color;
+		padding-top: (@form-control-padding-top - @form-control-border-width);
+		padding-right: (@form-control-padding-right - @form-control-border-width);
+		padding-bottom: (@form-control-padding-bottom - @form-control-border-width);
+		padding-left: (@form-control-padding-left - @form-control-border-width);
+		border-radius: @form-control-border-radius;
+		width: 100%;
+		min-height: (@line-height + @form-control-padding-top + @form-control-padding-bottom);
+		appearance: none;
+		color: @form-control-color;
+		background-color: @form-control-background-color;
+
+		&::placeholder {
+			color: @form-hint-color;
+		}
+	}
+
+	select {
+		@icon: escape("<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' fill='@{form-hint-color}'><path d='M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z'/></svg>");
+
+		display: block;
+		border-width: @form-control-border-width;
+		border-style: solid;
+		border-color: @form-control-border-color;
+		padding-top: (@form-control-padding-top - @form-control-border-width);
+		padding-right: (@form-control-padding-right * 2 + 8px - @form-control-border-width);
+		padding-bottom: (@form-control-padding-bottom - @form-control-border-width);
+		padding-left: (@form-control-padding-left - @form-control-border-width);
+		border-radius: @form-control-border-radius;
+		color: @form-control-color;
+		width: 100%;
+		min-height: (@line-height + @form-control-padding-top + @form-control-padding-bottom);
+		appearance: none;
+		background-color: @form-control-background-color;
+		background-image: url("data:image/svg+xml, @{icon}");
+		background-position: right (@form-control-padding-right - 5px) top 55%;
+		background-repeat: no-repeat;
+		background-size: 18px 18px;
+
+		&::-ms-expand {
+			display: none;
+		}
+	}
+
+	textarea {
+		display: block;
+		border-width: @form-control-border-width;
+		border-style: solid;
+		border-color: @form-control-border-color;
+		padding-top: (@form-control-padding-top - @form-control-border-width);
+		padding-right: (@form-control-padding-right - @form-control-border-width);
+		padding-bottom: (@form-control-padding-bottom - @form-control-border-width);
+		padding-left: (@form-control-padding-left - @form-control-border-width);
+		border-radius: @form-control-border-radius;
+		width: 100%;
+		appearance: none;
+		background-color: @form-control-background-color;
+
+		&::placeholder {
+			color: @form-hint-color;
+		}
+	}
+}
