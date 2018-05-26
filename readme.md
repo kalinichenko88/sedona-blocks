@@ -42,6 +42,7 @@
 
 * [card](https://github.com/constlab/sedona-blocks/tree/master/card) ([пример](http://sedona.stage.constlab.ru/blocks/card/))
 * form
+  * range
 * [social](https://github.com/constlab/sedona-blocks/tree/master/social) ([пример](http://sedona.stage.constlab.ru/blocks/social/))
 * [table](https://github.com/constlab/sedona-blocks/tree/master/table) ([пример](http://sedona.stage.constlab.ru/blocks/table/))
 
