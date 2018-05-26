@@ -2,7 +2,7 @@
 
 Набор типовых блоков для построения структуры страниц.
 
-[Гайдлайн по созданию](https://github.com/constlab/sedona-blocks/blob/master/guidelines.md).
+### [Гайдлайн по созданию](https://github.com/constlab/sedona-blocks/blob/master/guidelines.md)
 
 ## Типы
 
