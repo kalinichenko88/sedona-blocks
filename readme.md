@@ -41,7 +41,7 @@
 Не могут использоваться как самостоятельные блоки, обязательно должны вкладываться в шаблонный или содержательный типы.
 
 * [card](https://github.com/constlab/sedona-blocks/tree/master/card) ([пример](http://sedona.stage.constlab.ru/blocks/card/))
-* [form](https://github.com/constlab/sedona-blocks/tree/master/form)
+* [form](https://github.com/constlab/sedona-blocks/tree/master/form) ([пример](http://sedona.stage.constlab.ru/blocks/form/))
   * range
 * [social](https://github.com/constlab/sedona-blocks/tree/master/social) ([пример](http://sedona.stage.constlab.ru/blocks/social/))
 * [table](https://github.com/constlab/sedona-blocks/tree/master/table) ([пример](http://sedona.stage.constlab.ru/blocks/table/))
@@ -67,6 +67,7 @@ main: [
   'node_modules/sedona-blocks/grid/grid.less',
   'node_modules/sedona-blocks/slider/slider.less',
   'node_modules/sedona-blocks/card/card.less',
+  'node_modules/sedona-blocks/card/form.less',
   'node_modules/sedona-blocks/social/social.less',
   'node_modules/sedona-blocks/table/table.less',
   'src/less/main.less'
