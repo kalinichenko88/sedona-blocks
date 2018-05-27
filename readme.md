@@ -79,7 +79,7 @@ app: [
   'node_modules/sedona-blocks/header/header.js',
   'node_modules/sedona-blocks/slider/slider.js',
   'node_modules/sedona-blocks/range/range.js',
-  'node_modules/sedona-blocks/slider/slider.js'
+  'node_modules/sedona-blocks/table/table.js'
 ]
 …
 ```
