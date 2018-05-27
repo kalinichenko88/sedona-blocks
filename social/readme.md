@@ -11,6 +11,7 @@
 ```less
 @social-width: @line-height;
 @social-height: @line-height;
+
 @social-color: @light-primary;
 @social-background-color: transparent;
 ```
