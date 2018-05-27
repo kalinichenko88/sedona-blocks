@@ -25,7 +25,7 @@
 @footer-background: none;
 @footer-link-color: @link-primary;
 
-@footer-breakpoints-desktop: @grid-breakpoints-md;
+@footer-breakpoints: @grid-breakpoints-md;
 @footer-max-width: @grid-breakpoints-xl;
 
 // Darken
