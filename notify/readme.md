@@ -1,4 +1,4 @@
-# Всплывающее уведомление
+# Уведомление
 
 Шаблонный тип. [Пример](http://sedona.stage.constlab.ru/blocks/notify/).
 
