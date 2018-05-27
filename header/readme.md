@@ -16,10 +16,12 @@
 // Base
 
 @header-height: (@line-height + @indent * 2);
+
 @header-color: @base-primary;
 @header-background: none;
 @header-link-color: @link-primary;
-@header-breakpoints-desktop: @grid-breakpoints-md;
+
+@header-breakpoints: @grid-breakpoints-md;
 @header-max-width: @grid-breakpoints-xl;
 
 // Darken
