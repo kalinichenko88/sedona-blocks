@@ -67,7 +67,8 @@ main: [
   'node_modules/sedona-blocks/grid/grid.less',
   'node_modules/sedona-blocks/slider/slider.less',
   'node_modules/sedona-blocks/card/card.less',
-  'node_modules/sedona-blocks/card/form.less',
+  'node_modules/sedona-blocks/form/form.less',
+  'node_modules/sedona-blocks/range/range.less',
   'node_modules/sedona-blocks/social/social.less',
   'node_modules/sedona-blocks/table/table.less',
   'src/less/main.less'
@@ -77,7 +78,8 @@ app: [
   'src/js/app.js',
   'node_modules/sedona-blocks/header/header.js',
   'node_modules/sedona-blocks/slider/slider.js',
-  'node_modules/sedona-blocks/table/table.js'
+  'node_modules/sedona-blocks/range/range.js',
+  'node_modules/sedona-blocks/slider/slider.js'
 ]
 …
 ```
