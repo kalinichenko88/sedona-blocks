@@ -25,7 +25,6 @@
 @form-control-hover-border-color: darken(@form-control-border-color, 15%);
 @form-control-hover-background-color: @form-control-background-color;
 
-@form-control-focus-outline-width: 2px;
 @form-control-focus-outline-color: @form-control-border-color;
 @form-control-focus-border-color: @form-control-hover-border-color;
 @form-control-focus-background-color: @form-control-hover-background-color;
