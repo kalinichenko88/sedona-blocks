@@ -42,7 +42,7 @@
 
 * [card](https://github.com/constlab/sedona-blocks/tree/master/card) ([пример](http://sedona.stage.constlab.ru/blocks/card/))
 * [form](https://github.com/constlab/sedona-blocks/tree/master/form) ([пример](http://sedona.stage.constlab.ru/blocks/form/))
-  * file
+  * [file](https://github.com/constlab/sedona-blocks/tree/master/file) ([пример](http://sedona.stage.constlab.ru/blocks/file/))
   * [range](https://github.com/constlab/sedona-blocks/tree/master/range) ([пример](http://sedona.stage.constlab.ru/blocks/range/))
 * [social](https://github.com/constlab/sedona-blocks/tree/master/social) ([пример](http://sedona.stage.constlab.ru/blocks/social/))
 * [table](https://github.com/constlab/sedona-blocks/tree/master/table) ([пример](http://sedona.stage.constlab.ru/blocks/table/))
@@ -69,6 +69,7 @@ main: [
   'node_modules/sedona-blocks/slider/slider.less',
   'node_modules/sedona-blocks/card/card.less',
   'node_modules/sedona-blocks/form/form.less',
+  'node_modules/sedona-blocks/file/file.less',
   'node_modules/sedona-blocks/range/range.less',
   'node_modules/sedona-blocks/social/social.less',
   'node_modules/sedona-blocks/table/table.less',
@@ -79,6 +80,7 @@ app: [
   'src/js/app.js',
   'node_modules/sedona-blocks/header/header.js',
   'node_modules/sedona-blocks/slider/slider.js',
+  'node_modules/sedona-blocks/file/file.js',
   'node_modules/sedona-blocks/range/range.js',
   'node_modules/sedona-blocks/table/table.js'
 ]
