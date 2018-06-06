@@ -10,18 +10,18 @@
 
 Основа без которой не обойтись.
 
-* [scene](https://github.com/constlab/sedona-blocks/tree/master/scene) ([пример](http://sedona.stage.constlab.ru/blocks/scene/))
-* [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/wysiwyg) ([пример](http://sedona.stage.constlab.ru/blocks/wysiwyg/))
+* [scene](https://github.com/constlab/sedona-blocks/tree/master/src/scene) ([пример](http://sedona.stage.constlab.ru/blocks/scene/))
+* [wysiwyg](https://github.com/constlab/sedona-blocks/tree/master/src/wysiwyg) ([пример](http://sedona.stage.constlab.ru/blocks/wysiwyg/))
 
 ### Шаблонные
 
 Самостоятельные блоки. Не могут вкладываться в другие.
 
 * contact
-* [footer](https://github.com/constlab/sedona-blocks/tree/master/footer)
-* [header](https://github.com/constlab/sedona-blocks/tree/master/header)
+* [footer](https://github.com/constlab/sedona-blocks/tree/master/src/footer)
+* [header](https://github.com/constlab/sedona-blocks/tree/master/src/header)
 * heading
-* [notify](https://github.com/constlab/sedona-blocks/tree/master/notify) ([пример](http://sedona.stage.constlab.ru/blocks/notify/))
+* [notify](https://github.com/constlab/sedona-blocks/tree/master/src/notify) ([пример](http://sedona.stage.constlab.ru/blocks/notify/))
 * pricing
 * testimonials
 * teams
@@ -32,20 +32,20 @@
 
 * carousel
 * collapse
-* [grid](https://github.com/constlab/sedona-blocks/tree/master/grid) ([пример](http://sedona.stage.constlab.ru/blocks/grid/))
-* [slider](https://github.com/constlab/sedona-blocks/tree/master/slider) ([пример](http://sedona.stage.constlab.ru/blocks/slider/))
+* [grid](https://github.com/constlab/sedona-blocks/tree/master/src/grid) ([пример](http://sedona.stage.constlab.ru/blocks/grid/))
+* [slider](https://github.com/constlab/sedona-blocks/tree/master/src/slider) ([пример](http://sedona.stage.constlab.ru/blocks/slider/))
 * tabs
 
 ### Инлайновые
 
 Не могут использоваться как самостоятельные блоки, обязательно должны вкладываться в шаблонный или содержательный типы.
 
-* [card](https://github.com/constlab/sedona-blocks/tree/master/card) ([пример](http://sedona.stage.constlab.ru/blocks/card/))
-* [form](https://github.com/constlab/sedona-blocks/tree/master/form) ([пример](http://sedona.stage.constlab.ru/blocks/form/))
-  * [file](https://github.com/constlab/sedona-blocks/tree/master/file) ([пример](http://sedona.stage.constlab.ru/blocks/file/))
-  * [range](https://github.com/constlab/sedona-blocks/tree/master/range) ([пример](http://sedona.stage.constlab.ru/blocks/range/))
-* [social](https://github.com/constlab/sedona-blocks/tree/master/social) ([пример](http://sedona.stage.constlab.ru/blocks/social/))
-* [table](https://github.com/constlab/sedona-blocks/tree/master/table) ([пример](http://sedona.stage.constlab.ru/blocks/table/))
+* [card](https://github.com/constlab/sedona-blocks/tree/master/src/card) ([пример](http://sedona.stage.constlab.ru/blocks/card/))
+* [form](https://github.com/constlab/sedona-blocks/tree/master/src/form) ([пример](http://sedona.stage.constlab.ru/blocks/form/))
+  * [file](https://github.com/constlab/sedona-blocks/tree/master/src/file) ([пример](http://sedona.stage.constlab.ru/blocks/file/))
+  * [range](https://github.com/constlab/sedona-blocks/tree/master/src/range) ([пример](http://sedona.stage.constlab.ru/blocks/range/))
+* [social](https://github.com/constlab/sedona-blocks/tree/master/src/social) ([пример](http://sedona.stage.constlab.ru/blocks/social/))
+* [table](https://github.com/constlab/sedona-blocks/tree/master/src/table) ([пример](http://sedona.stage.constlab.ru/blocks/table/))
 
 ## Установка
 
@@ -60,29 +60,29 @@ npm i sedona-blocks
 ```js
 …
 main: [
-  'node_modules/sedona-blocks/scene/scene.less',
-  'node_modules/sedona-blocks/wysiwyg/wysiwyg.less',
-  'node_modules/sedona-blocks/footer/footer.less',
-  'node_modules/sedona-blocks/header/header.less',
-  'node_modules/sedona-blocks/notify/notify.less',
-  'node_modules/sedona-blocks/grid/grid.less',
-  'node_modules/sedona-blocks/slider/slider.less',
-  'node_modules/sedona-blocks/card/card.less',
-  'node_modules/sedona-blocks/form/form.less',
-  'node_modules/sedona-blocks/file/file.less',
-  'node_modules/sedona-blocks/range/range.less',
-  'node_modules/sedona-blocks/social/social.less',
-  'node_modules/sedona-blocks/table/table.less',
+  'node_modules/sedona-blocks/src/scene/scene.less',
+  'node_modules/sedona-blocks/src/wysiwyg/wysiwyg.less',
+  'node_modules/sedona-blocks/src/footer/footer.less',
+  'node_modules/sedona-blocks/src/header/header.less',
+  'node_modules/sedona-blocks/src/notify/notify.less',
+  'node_modules/sedona-blocks/src/grid/grid.less',
+  'node_modules/sedona-blocks/src/slider/slider.less',
+  'node_modules/sedona-blocks/src/card/card.less',
+  'node_modules/sedona-blocks/src/form/form.less',
+  'node_modules/sedona-blocks/src/file/file.less',
+  'node_modules/sedona-blocks/src/range/range.less',
+  'node_modules/sedona-blocks/src/social/social.less',
+  'node_modules/sedona-blocks/src/table/table.less',
   'src/less/main.less'
 ]
 …
 app: [
   'src/js/app.js',
-  'node_modules/sedona-blocks/header/header.js',
-  'node_modules/sedona-blocks/slider/slider.js',
-  'node_modules/sedona-blocks/file/file.js',
-  'node_modules/sedona-blocks/range/range.js',
-  'node_modules/sedona-blocks/table/table.js'
+  'node_modules/sedona-blocks/src/header/header.js',
+  'node_modules/sedona-blocks/src/slider/slider.js',
+  'node_modules/sedona-blocks/src/file/file.js',
+  'node_modules/sedona-blocks/src/range/range.js',
+  'node_modules/sedona-blocks/src/table/table.js'
 ]
 …
 ```
