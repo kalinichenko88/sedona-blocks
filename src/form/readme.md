@@ -51,3 +51,4 @@
 ## Дополнительно
 
 * Маски: [Inputmask](https://github.com/RobinHerbots/Inputmask)
+* Календарь: [air-datepicker](https://github.com/t1m0n/air-datepicker)
