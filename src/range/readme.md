@@ -11,7 +11,7 @@
 ## Настройка
 
 ```less
-@range-height: (@line-height + @form-control-padding-top + @form-control-padding-bottom);
+@range-height: @form-control-height;
 
 @range-line-height: 2px;
 @range-line-border-radius: (@range-line-height / 2);
@@ -37,4 +37,8 @@
 @range-slider-background-repeat: repeat;
 @range-slider-background-position: 0 0;
 @range-slider-background-size: auto auto;
+
+@range-hint-color: @form-hint-color;
+@range-hint-font-size: @form-hint-font-size;
+@range-hint-line-height: @form-hint-line-height;
 ```
