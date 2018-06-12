@@ -16,7 +16,9 @@
 @form-control-padding-left: @indent;
 @form-control-padding-right: @form-control-padding-left;
 
-@form-control-background-color: transparent;
+@form-control-height: (@line-height + @form-control-padding-top + @form-control-padding-bottom);
+
+@form-control-background-color: @light-primary;
 @form-control-background-image: none;
 @form-control-background-repeat: repeat;
 @form-control-background-position: 0 0;
