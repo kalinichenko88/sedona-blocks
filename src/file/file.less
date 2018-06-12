@@ -1,20 +1,39 @@
 // File
 //------------------------------------------------------------------------------
 
+@file-preview-width: (@line-height * 3);
+@file-preview-height: (@line-height * 3);
+
+
+// Style
+//------------------------------------------------------------------------------
+
 .file {
 	&--input {
 		position: absolute !important;
-		clip: rect(0 0 0 0) !important;
-		width: 1px !important;
-		height: 1px !important;
-		margin: -1px !important;
-		opacity: 0 !important;
+		width: 100% !important;
+		height: 100% !important;
+		top: 0 !important;
+		right: 0 !important;
+		bottom: 0 !important;
+		left: 0 !important;
+		margin: 0 !important;
 		padding: 0 !important;
 		border: 0 !important;
-		min-height: 0 !important;
+		border-radius: 0 !important;
+		min-height: 100% !important;
+		max-height: 100% !important;
+		min-width: 100% !important;
+		max-width: 100% !important;
+		opacity: 0 !important;
+		z-index: -1 !important;
 	}
 
-	&:not([type="file"]) {
+	&--droppable {
+		z-index: 1 !important;
+	}
+
+	&--pseudo {
 		display: flex;
 		border-width: @form-control-border-width;
 		border-style: solid;
@@ -36,19 +55,28 @@
 		transition: @duration @timing-function;
 		cursor: pointer;
 
-		[type="file"]:focus + & {
+		.file--input:focus + & {
 			.focus(@form-control-focus-outline-color);
 			border-color: @form-control-focus-border-color;
 			background-color: @form-control-focus-background-color;
 		}
 
-		[type="file"]:not([disabled]) + &:hover,
-		[type="file"]:not([disabled]) + &:focus {
+		.file--input:not([disabled]) + &:hover,
+		.file--input:not([disabled]) + &:focus,
+		.file--input.file--droppable + & {
 			border-color: @form-control-hover-border-color;
 			background-color: @form-control-hover-background-color;
 		}
 
-		[type="file"][disabled] + & {
+		.file--input.file--droppable + & {
+			border-style: dashed;
+		}
+
+		.file--draggable + & {
+			border-style: dashed;
+		}
+
+		.file--input[disabled] + & {
 			.disabled();
 		}
 
@@ -57,14 +85,14 @@
 			background-color: @form-control-danger-background-color;
 		}
 
-		.form__control--danger [type="file"]:focus + & {
+		.form__control--danger .file--input:focus + & {
 			.focus(@form-control-danger-focus-outline-color);
 			border-color: @form-control-danger-focus-border-color;
 			background-color: @form-control-danger-focus-background-color;
 		}
 
-		.form__control--danger [type="file"]:not([disabled]) + &:hover,
-		.form__control--danger [type="file"]:not([disabled]) + &:focus {
+		.form__control--danger .file--input:not([disabled]) + &:hover,
+		.form__control--danger .file--input:not([disabled]) + &:focus {
 			border-color: @form-control-danger-hover-border-color;
 			background-color: @form-control-danger-hover-background-color;
 		}
@@ -79,13 +107,47 @@
 	padding: 0;
 	margin-right: @form-control-padding-top;
 	width: 0;
-	max-width: calc(~"100% - 24px" - @form-control-padding-top);
+	max-width: ~"calc(100% - 24px - @{form-control-padding-top})";
 
 	li {
 		width: 100%;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+	}
+
+	&--preview {
+		margin-right: 0;
+		margin-bottom: -(@form-control-padding-bottom - 1px);
+		margin-left: (@form-control-padding-top - 1px) - (@form-control-padding-left - 1px);
+		max-width: ~"calc(100% - 24px - ((@{form-control-padding-top} - 1px) - (@{form-control-padding-left} - 1px)))";
+
+		li {
+			width: auto;
+			margin-right: (@form-control-padding-top - 1px);
+			margin-bottom: (@form-control-padding-top - 1px);
+		}
+	}
+}
+
+.file__preview {
+	display: none;
+	width: @file-preview-width;
+	height: @file-preview-height;
+	border-radius: (@form-control-border-radius / 2);
+	background-color: @form-control-border-color;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.file__field--preview & {
+		display: block;
+	}
+}
+
+.file__name {
+	.file__field--preview & {
+		display: none;
 	}
 }
 
