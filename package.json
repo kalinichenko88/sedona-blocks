@@ -6,5 +6,8 @@
     "type": "git",
     "url": "git+https://github.com/constlab/sedona-blocks.git"
   },
-  "homepage": "https://github.com/constlab/sedona-blocks#readme"
+  "homepage": "https://github.com/constlab/sedona-blocks#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
 }
