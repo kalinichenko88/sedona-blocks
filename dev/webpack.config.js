@@ -17,7 +17,8 @@ const plugins = [
 	}),*/
 	new MiniCssExtractPlugin({
 		filename: "[name].css",
-		chunkFilename: "[id].css"
+		chunkFilename: "[id].css",
+		hot: true
 	}),
 	new HtmlWebpackPlugin({
 		filename: "index.html",

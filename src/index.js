@@ -1,5 +1,4 @@
-//import notify from "./notify/notify";
-
+import "./common/main.less";
 
 export * from "./notify/notify.js";
 export * from "./scene/scene.js";
