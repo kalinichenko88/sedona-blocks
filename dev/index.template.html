@@ -1,0 +1,34 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+	<title>
+		<%= htmlWebpackPlugin.options.title %>
+	</title>
+	<!--<link rel="stylesheet" type="text/css" href="main.css" />-->
+	<style>
+			li {
+				display: inline-block;
+				margin-right: 15px;
+				font-size: 18px;
+			}
+		</style>
+</head>
+
+<body>
+	<h1>Blocks</h1>
+	<ul>
+		<% _.each(htmlWebpackPlugin.options.blocks, function(block){ %>
+			<li>
+				<a href="<%= block + ".html" %>">
+					<%= block %>
+				</a>
+			</li>
+			<% }); %>
+	</ul>
+
+</body>
+
+</html>
